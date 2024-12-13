@@ -1,8 +1,8 @@
 const ACTIONS = [
     {
         date: "12/12/24",
-        title: "Stay in the loop!",
-        context: "follow us, donate, and share with others",
+        title: "Support Us",
+        context: "Gen-Z for Change is powered by young organizers and our 450+ creator coalition. We believe in effective organizing – making young people’s lives tangibly better. We need your help – we’re only as powerful as our audience! Donate to us to allow our team to grow while paying everyone a fair wage, and share our content to maximize our organizing impact.",
         links: {
             "follow us!": "link",
             "donate": "link",
@@ -120,5 +120,58 @@ const ACTIONS = [
             "follow": "link"
         }
     },
-    
+    {
+        date: "12/26/24",
+        title: "pending...",
+        context: "start talking to the people around you about the issues that matter!",
+        links: {
+            "donate": "link",
+            "follow": "link"
+        }
+    },
+    {
+        date: "12/27/24",
+        title: "Donate to OOB GFM or grassroots org",
+        context: "start talking to the people around you about the issues that matter!",
+        links: {
+            "donate": "link",
+            "follow": "link"
+        }
+    },
+    {
+        date: "12/28/24",
+        title: "Watch Union",
+        context: "start talking to the people around you about the issues that matter!",
+        links: {
+            "watch": "link",
+            "donate": "link",
+            "follow": "link"
+        }
+    },
+    {
+        date: "12/29/24",
+        title: "Donate to & follow local tribes",
+        context: "start talking to the people around you about the issues that matter!",
+        links: {
+            "donate": "link",
+            "follow": "link"
+        }
+    },
+    {
+        date: "12/30/24",
+        title: "Know your rights",
+        context: "Educate yourself on your rights (if arrested, if organizing a union, tenant rights, immigrants)",
+        links: {
+            "follow": "link",
+            "read up": "link"
+        }
+    },
+    {
+        date: "12/31/24",
+        title: "Wear a mask",
+        context: "Wear a mask while traveling (or specifically NYE parties)",
+        links: {
+            "action": "link",
+        }
+    },
 ]
