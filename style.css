@@ -2,18 +2,44 @@ html {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+body {
+  margin: 0;
+  background-color: #F8F7F3; 
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("https://cdn.glitch.me/6d14b975-2ac9-4b8b-93ff-c651753aa806/Days%20of%20Action%20Site%20Background.gif?v=1734384977642");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.75;
+  z-index: -1;
+}
+
+h1 {
+  font-family: felt-tip-woman, sans-serif;
+  font-size: 89px;
+  margin: 25px;
+  padding: 0px;
+  
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
-    background-color: #f46c6c;
     padding: 5px;
 }
 
 .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 20px;
+    background-color: #F8F7F3;
+    border: 1px solid #231F20;
+    padding: 25px;
+    font-size: 21px;
     text-align: center;
 }
 
@@ -23,11 +49,33 @@ html {
 
 .button {
     background-color: #f46c6c;
-    color: white;
+    color: #231F20;
     padding: 5px;
     margin: 5px;
     font-size: 16px;
     text-align: center;
     text-decoration: none;
+    margin: 50px;
 }
 
+#gz4c img {
+  max-width: 50%;
+  padding: 25px 0;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+ 
+  #gz4c img {
+    max-width: 100%;
+  }
+
+}
+
+@media (min-width: 1350px) {
+  
+  #gz4c img {
+    max-width: 35%;
+  }
+}
