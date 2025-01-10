@@ -6,42 +6,34 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     </head>
     <body>
-        <h1>20 days of action!</h1>
-        <div class="calendar grid-container">
-            <div class="grid-item" id="day1">Day 1<br><small>12/12/24</small></div>
-            <div class="grid-item" id="day2">Day 2<br><small>12/13/24</small></div>
-            <div class="grid-item" id="day3">Day 3<br><small>12/14/24</small></div>
-            <div class="grid-item" id="day4">Day 4<br><small>12/15/24</small></div>
-            <div class="grid-item" id="day5">Day 5<br><small>12/16/24</small></div>
-            <div class="grid-item" id="day6">Day 6<br><small>12/17/24</small></div>
-            <div class="grid-item" id="day7">Day 7<br><small>12/18/24</small></div>
-            <div class="grid-item" id="day8">Day 8<br><small>12/19/24</small></div>
-            <div class="grid-item" id="day9">Day 9<br><small>12/20/24</small></div>
-            <div class="grid-item" id="day10">Day 10<br><small>12/21/24</small></div>
-            <div class="grid-item" id="day11">Day 11<br><small>12/22/24</small></div>
-            <div class="grid-item" id="day12">Day 12<br><small>12/23/24</small></div>
-            <div class="grid-item" id="day13">Day 13<br><small>12/24/24</small></div>
-            <div class="grid-item" id="day14">Day 14<br><small>12/25/24</small></div>
-            <div class="grid-item" id="day15">Day 15<br><small>12/26/24</small></div>
-            <div class="grid-item" id="day16">Day 16<br><small>12/27/24</small></div>
-            <div class="grid-item" id="day17">Day 17<br><small>12/28/24</small></div>
-            <div class="grid-item" id="day18">Day 18<br><small>12/29/24</small></div>
-            <div class="grid-item" id="day19">Day 19<br><small>12/30/24</small></div>
-            <div class="grid-item" id="day20">Day 20<br><small>12/31/24</small></div>
+        <h1 id="header">20 days of action!</h1>
+        <div class="desc">
+            <p>
+                This holiday season, we're presenting you 20 small actions you can take to fight for change in your community and beyond. Every day, check this website to see that day's action, and be sure to check out any actions you may have missed! Actions range from engaging in mutual aid to watching a film—all quick and easy, all impactful. Click on any released actions to learn more!
+            </p>
+            <button onclick="scrollToday()">Check out today's action!</button>
         </div>
-        <div class="action">
-            <h3 class="title">title</h3>
-            <p class="context">action</p>
-            <div class="links">
+        <div class="calendar grid-container">
+            <!-- filled in programmatically -->
+        </div>
+        <div class="modal" id="myModal">
+            <div class="action">
+                
+                <span class="close">&times;</span>
+                <h3 class="title">title</h3>
+                <p class="context">action</p>
+                <div class="links">
+                </div>
             </div>
         </div>
         <footer>
             <a href="https://genzforchange.org" id="gz4c">
             <img
-              src="https://cdn.glitch.global/3a633a91-0898-4e5b-9ec7-a26e24149d24/made-with-love-by-gen-z-for-changes-meddling-kids.png?v=1733512336669"
+              src="made-with-love-by-gen-z-for-changes-meddling-kids.png"
               alt="Made with love by Gen-Z for Change's Meddling Kids"
               />
             </a>
+            <script src="dsa.js"></script>
             <script src="actions.js"></script>
             <script src="script.js"></script>
         </footer>

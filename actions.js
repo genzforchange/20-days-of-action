@@ -11,7 +11,7 @@ const ACTIONS = [
     },
     {
         date: "12/13/24",
-        title: "Call your state government and urge them to flex highway funding for public transit",
+        title: "Call on your state government and urge them to fund public transit",
         context: "follow us, donate, and share with others",
         links: {
             "follow us!": "link",
